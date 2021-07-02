@@ -1,0 +1,35 @@
+//data memory[needs to be changed], address based on byte(8 bits per address)
+module DM(
+        input DMRd,// 1 read, 0 not read
+        input DMWr, // 1 write, 0 not write
+        input clk, //clock
+        input [6:0] Daddr, // Data address
+        input [31:0] DataIn, //Data input
+        output reg[31:0] DataOut //Data output
+    );
+
+    reg [7:0] ram [0:512]; //storage of DM is 512 Bytes
+    
+    always@(*)////////////////////////////changed
+      begin
+      //read, little endian
+	DataOut[7:0] <= DMRd ? ram[Daddr] : 8'bz;
+   	DataOut[15:8] <= DMRd ? ram[Daddr + 1] : 8'bz;     
+	DataOut[23:16] <= DMRd ? ram[Daddr + 2] : 8'bz;     
+	DataOut[31:24] <= DMRd ? ram[Daddr + 3] : 8'bz;
+      end
+
+    always@(posedge clk)
+    begin   
+     //write, little endian
+        if(DMWr)
+            begin//sw
+		ram[Daddr] <= DataIn[7:0];    
+	        ram[Daddr + 1] <= DataIn[15:8];
+	        ram[Daddr + 2] <= DataIn[23:16];     
+	        ram[Daddr + 3] <= DataIn[31:24];    
+            end
+        //$display("mwr: %d $12 %d %d %d %d", mWR, ram[12], ram[13], ram[14], ram[15]);
+    end
+
+endmodule

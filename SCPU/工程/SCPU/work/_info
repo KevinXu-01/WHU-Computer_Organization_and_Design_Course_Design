@@ -1,0 +1,329 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/modelsim/examples/PCPU
+T_opt
+!s110 1588407363
+Vn8NTeQB[j0eN=:>cReiEY1
+04 4 4 work SCPU fast 0
+=1-54bf643402ce-5ead2c42-2f5-a3d0
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.4;61
+R0
+valu
+Z1 !s110 1588407408
+!i10b 1
+!s100 ;bbVL8mXdAZ3]T=nZnjHa0
+I:c58RkH]NJ?4f5^gneHg10
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/modelsim/examples/SCPU
+w1588170085
+8D:/modelsim/examples/SCPU/SCPU_alu.v
+FD:/modelsim/examples/SCPU/SCPU_alu.v
+L0 4
+Z4 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1588407408.290000
+!s107 SCPU_ctrl_encode_def.v|D:/modelsim/examples/SCPU/SCPU_alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_alu.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vControlUnit
+R1
+!i10b 1
+!s100 f4QWR;UH1Z@S2i<]Ya:3a3
+IOFNf4S;I^@;;8Ej]TB]Kz1
+R2
+R3
+w1584805436
+8D:/modelsim/examples/SCPU/SCPU_CU.v
+FD:/modelsim/examples/SCPU/SCPU_CU.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1588407408.643000
+!s107 D:/modelsim/examples/SCPU/SCPU_CU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_CU.v|
+!i113 0
+R5
+n@control@unit
+vDM
+R1
+!i10b 1
+!s100 f=QQfZlKXQn<>dCOJgLjG1
+I]l[I3M@gP`mWYhzhPDK6=0
+R2
+R3
+w1584810321
+8D:/modelsim/examples/SCPU/SCPU_DM.v
+FD:/modelsim/examples/SCPU/SCPU_DM.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1588407408.768000
+!s107 D:/modelsim/examples/SCPU/SCPU_DM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_DM.v|
+!i113 0
+R5
+n@d@m
+vEXT
+R1
+!i10b 1
+!s100 7NPPcL9S:74T^C>F7W_2R2
+Im[R@zJfeli@?C@5PGUkTT3
+R2
+R3
+w1584811079
+8D:/modelsim/examples/SCPU/SCPU_EXT.v
+FD:/modelsim/examples/SCPU/SCPU_EXT.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1588407408.897000
+!s107 D:/modelsim/examples/SCPU/SCPU_EXT.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_EXT.v|
+!i113 0
+R5
+n@e@x@t
+vIF
+Z6 !s110 1588407409
+!i10b 1
+!s100 HFGddi]giSNPEZ^R]mE0z2
+IP5LQzFY>ef]^UfAUKf98I2
+R2
+R3
+w1584770027
+8D:/modelsim/examples/SCPU/SCPU_IF.v
+FD:/modelsim/examples/SCPU/SCPU_IF.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1588407409.028000
+!s107 D:/modelsim/examples/SCPU/SCPU_IF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_IF.v|
+!i113 0
+R5
+n@i@f
+vIM
+R6
+!i10b 1
+!s100 n2:ML4K_bD?FR1^19AJGJ2
+I`fFPRKkWVIgK:DYU5Shh90
+R2
+R3
+w1584624170
+8D:/modelsim/examples/SCPU/SCPU_IM.v
+FD:/modelsim/examples/SCPU/SCPU_IM.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1588407409.194000
+!s107 D:/modelsim/examples/SCPU/SCPU_IM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_IM.v|
+!i113 0
+R5
+n@i@m
+vmux16
+R6
+!i10b 1
+!s100 Djz[^;6B4ZgWdDbC=Df]C1
+I@91MmmCPniH<V^Jm5K<D91
+R2
+R3
+Z7 w1584810656
+Z8 8D:/modelsim/examples/SCPU/SCPU_mux.v
+Z9 FD:/modelsim/examples/SCPU/SCPU_mux.v
+L0 58
+R4
+r1
+!s85 0
+31
+Z10 !s108 1588407409.320000
+Z11 !s107 D:/modelsim/examples/SCPU/SCPU_mux.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_mux.v|
+!i113 0
+R5
+vmux2_32bits
+R6
+!i10b 1
+!s100 LOd^5QeOEGhI[7_57cXYa0
+I6bc`?1e`C7DiRNk=Q?@5Z1
+R2
+R3
+R7
+R8
+R9
+L0 14
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R5
+vmux2_5bits
+R6
+!i10b 1
+!s100 a9mLYfKnQLIWb3G63UQVU2
+IozEA>Eb18GlaD?kmnIlYi2
+R2
+R3
+R7
+R8
+R9
+L0 2
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R5
+vmux8
+R6
+!i10b 1
+!s100 e6Rmdkd33EHiYV9ZeX4oa1
+IQ]df]Lh6z@5b_aa?oaB6G1
+R2
+R3
+R7
+R8
+R9
+L0 27
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R5
+vNPC
+R6
+!i10b 1
+!s100 >Wjiai_8Daob:0DkS:6D@1
+IBfTVPKoQnVC@<Q3l>aako1
+R2
+R3
+w1588170078
+8D:/modelsim/examples/SCPU/SCPU_NPC.v
+FD:/modelsim/examples/SCPU/SCPU_NPC.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1588407409.459000
+!s107 SCPU_ctrl_encode_def.v|D:/modelsim/examples/SCPU/SCPU_NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_NPC.v|
+!i113 0
+R5
+n@n@p@c
+vPC
+R6
+!i10b 1
+!s100 lM7N@gR;4fMz]3L;mLgJ<2
+I`Fi@V;Q]?<_MUW78K9VJ=2
+R2
+R3
+w1550113688
+8D:/modelsim/examples/SCPU/SCPU_PC.v
+FD:/modelsim/examples/SCPU/SCPU_PC.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1588407409.603000
+!s107 D:/modelsim/examples/SCPU/SCPU_PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_PC.v|
+!i113 0
+R5
+n@p@c
+vRF
+R6
+!i10b 1
+!s100 i4KXTdEPTCYX[AW9M1a;S2
+ID2zK;VZ2;zXg4Ezgmd9P^0
+R2
+R3
+w1584765995
+8D:/modelsim/examples/SCPU/SCPU_RF.v
+FD:/modelsim/examples/SCPU/SCPU_RF.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1588407409.730000
+!s107 D:/modelsim/examples/SCPU/SCPU_RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_RF.v|
+!i113 0
+R5
+n@r@f
+vSCPU
+R6
+!i10b 1
+!s100 co_LATZjlN41UM2d@_C2@2
+I7lf^_hd1?6I;DaBf[XTN61
+R2
+R3
+w1588407405
+8D:/modelsim/examples/SCPU/SCPU_SCPU.v
+FD:/modelsim/examples/SCPU/SCPU_SCPU.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1588407409.860000
+!s107 D:/modelsim/examples/SCPU/SCPU_SCPU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_SCPU.v|
+!i113 0
+R5
+n@s@c@p@u
+vShifter
+R1
+!i10b 1
+!s100 0g4W:>Zjl=RVC:7T3?FQC0
+ITA89HP[92SIke87C_9SVB3
+R2
+R3
+w1584623089
+8D:/modelsim/examples/SCPU/SCPU_Shifter.v
+FD:/modelsim/examples/SCPU/SCPU_Shifter.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1588407408.186000
+!s107 D:/modelsim/examples/SCPU/SCPU_Shifter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/examples/SCPU/SCPU_Shifter.v|
+!i113 0
+R5
+n@shifter
